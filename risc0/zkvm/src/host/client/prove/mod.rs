@@ -28,10 +28,9 @@ use risc0_circuit_recursion::control_id::ALLOWED_CONTROL_IDS;
 use risc0_zkp::core::digest::Digest;
 
 #[cfg(feature = "bonsai")]
-use {self::bonsai::BonsaiProver, crate::is_dev_mode};
+use self::bonsai::BonsaiProver;
 
 use self::external::ExternalProver;
-
 use crate::{
     get_version, host::prove_info::ProveInfo, receipt::DEFAULT_MAX_PO2, ExecutorEnv, Receipt,
     SessionInfo, VerifierContext,
