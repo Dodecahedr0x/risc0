@@ -78,7 +78,8 @@ execute = [
   "dep:postcard",
   "dep:ringbuffer",
   "dep:smallvec",
-  "risc0-core/perf",
+  # "risc0-core/perf",
+  "risc0-core/std",
   "std",
 ]
 prove = [

@@ -67,7 +67,8 @@ prove = [
   "dep:rand",
   "dep:rayon",
   "dep:risc0-sys",
-  "risc0-core/perf",
+  # "risc0-core/perf",
+  "risc0-core/std",
   "std",
 ]
 std = ["anyhow/std"]
